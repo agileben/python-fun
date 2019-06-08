@@ -12,4 +12,4 @@ class MyTest(unittest.TestCase):
 
     def test_add(self):
         thing = MyThing()
-        self.failUnlessEqual(thing.add(2, 2), 4)
+        self.assertEqual(thing.add(2, 2), 4)
